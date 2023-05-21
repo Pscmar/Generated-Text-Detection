@@ -1,2 +1,2 @@
 # Final-Project-Pscmar
-This is the final project of Yanli Wang 222041029
+This is the final project of MDS6002
