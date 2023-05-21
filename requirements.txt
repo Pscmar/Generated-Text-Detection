@@ -1,0 +1,8 @@
+numpy
+scikit_learn
+torch
+tqdm
+transformers
+fire
+requests
+tensorboard
