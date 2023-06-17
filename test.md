@@ -41,15 +41,15 @@ chmod +x xxx.sh
 
 - wiki数据处理
 
-    - `./extract_wiki.sh`  
+    `./extract_wiki.sh`  
 
     这一步把我们下载好的wiki数据转换成一个txt文件，方便后面的数据处理。
 
-    - `./sharding.sh`  
+    `./sharding.sh`  
 
     在这一步之前，txt文件是一个article一行，执行这一步之后，txt文件变为一个sentence一行，也就变成BERT能够接受的文本形式了。此外，在这一步中还划分了训练集和测试集，为后续的预训练做准备。
 
-    - `./generate_samples.sh`  
+    `./generate_samples.sh`  
 
     直接的文本数据还不能用，我们需要把它转化成dataloader能够用的样子。
 
